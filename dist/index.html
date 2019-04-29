@@ -1,23 +1,9 @@
-<h1 align="left"><a href="https://entere.github.io">Turtle2js</a></h1>
+<html>
+<head>
+</head>
+<body>
 
-
-📦  `JavaScript` 版的 `Turtle` 库，基本可以和 `Python` 的 `Turtle`库功能一致
-
-## Installation
-
-```shell
-$ npm install
-$ npm run build
-
-```
-
-## Usage
-
-这个小工具和 `Python` 的海龟绘图(`Turtle Graphics`)内部库类似,可以画出各种图……
-
-示例一：绘制小猪佩奇
-
-```python
+<textarea  id="editor-code" rows="14" cols="80" style="width:100%">
 # coding:utf-8
 import turtle as t
 # 绘制小猪佩奇
@@ -314,53 +300,11 @@ t.circle(10, 330)
 t.circle(70, 30)
 t.done()
 
-```
 
+</textarea>
+<p> </p>
+<button id="run-code-button" type="button">点我查看效果</button>
 
-示例二：绘制太阳花
-
-```python
-import turtle as t
-import time
-t.pencolor("red")
-
-t.speed(10)
-t.begin_fill()
-for _ in range(50):
-    t.forward(200)
-    t.left(170)
-
-end_fill()
-time.sleep(1)
-
-```
-
-
-示例三：绘制五角星
-
-```python
-import turtle
-import time
-
-turtle.pensize(5)
-turtle.pencolor("yellow")
-turtle.fillcolor("red")
-turtle.begin_fill()
-
-for _ in range(5):
-    turtle.forward(200)
-    turtle.right(144)
-turtle.end_fill()
-time.sleep(2)
-
-turtle.penup()
-turtle.goto(-150,-120)
-turtle.color("violet")
-turtle.write("Done", font=('Arial', 40, 'normal'))
-time.sleep(1)
-
-```
-
-## License
-
-MIT
+<p> </p>
+<div id="draw-canvas"></div>
+</html><script type="text/javascript" src="turtle.bundle.js?e6034375b66da6acbd83"></script><script type="text/javascript" src="main.bundle.js?e6034375b66da6acbd83"></script>
