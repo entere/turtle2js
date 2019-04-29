@@ -1,0 +1,36 @@
+{
+  "name": "turtle2js",
+  "version": "1.0.0",
+  "description": "Python trutle to javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --inline",
+    "build": "webpack --config webpack.config.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entere/turtle2js.git"
+  },
+  "keywords": [
+    "turtle",
+    "javascript"
+  ],
+  "author": "entere@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entere/turtle2js/issues"
+  },
+  "homepage": "https://github.com/entere/turtle2js#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "json-loader": "^0.5.7",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
