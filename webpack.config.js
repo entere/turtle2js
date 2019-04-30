@@ -10,6 +10,8 @@ module.exports = {
         turtle:['./libs/skulpt.min.js','./libs/skulpt-stdlib.js'],//这两个文件把trutle转成js from: https://github.com/skulpt/skulpt
         main: './main.js',
     },
+    mode: 'production',
+    // devtool: 'source-map',
     output: {
         pathinfo: true,
         //打包后的文件名称
