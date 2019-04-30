@@ -15,7 +15,8 @@ class Main {
        let prog = document.getElementById("editor-code").value;
        (Sk.TurtleGraphics || (Sk.TurtleGraphics = {})).target = 'draw-canvas';
        Sk.configure({ read:this.builtinRead});
-       Sk.TurtleGraphics.height = 600;
+       Sk.TurtleGraphics.width = 500;
+       Sk.TurtleGraphics.height = 500;
        try {
           //Sk.importMainWithBody("<stdin>",false,prog);
           Sk.misceval.asyncToPromise(function() {
